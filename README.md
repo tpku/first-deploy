@@ -1,2 +1,2 @@
 # first-deploy
-first deplou
+first deploy
