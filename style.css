@@ -59,8 +59,8 @@ body {
   font-family: "Roboto", sans-serif;
   text-align: center;
 
-  background-image: url(./img/bg-winter-island.png), url(./img/bg-molle.png), url(./img/bg-midsummer.png);
-  background-repeat: no-repeat, repeat, no-repeat;
+  background-image: url(./img/bg-winter-island.png), url(#), url(#);
+  background-repeat: repeat;
   background-color: white;
   background-position-x: center;
   background-position-y: top;
