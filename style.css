@@ -1,54 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=VT323&family=Work+Sans&display=swap");
 
+:root {
+  --black-tpku: #010510;
+  --grey-tpku: #666971;
+  --light-pink-tpku: #ffdfdf;
+  --light-grey-tpku: #e5e5e5;
+  --white-tpky: #fff9f9;
+}
 * {
   box-sizing: border-box;
 }
 
+h1 {
+  letter-spacing: 5px;
+}
+
+a {
+  color: #010510;
+  text-decoration: none;
+  font-size: 32px;
+  margin-left: 10px;
+}
+
+header {
+  height: 100px;
+  width: 1000px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
 body {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   font-family: "Roboto", sans-serif;
-  background: black;
-
-  animation: animatedText 3s infinite;
   text-align: center;
+
+  background-image: url(./img/bg-winter-island.png);
+  background-color: white;
+  background-position-x: center;
+  background-position-y: top;
 }
 
-h1 {
-  font-size: 5rem;
-}
-
-p {
-  color: white;
-  font-size: 1.5rem;
-}
 
 img {
-  width: 50%;
-  max-width: 20rem;
+  width: 100%;
+  max-width: 1920px;
 }
 
-.title {
-  background-image: linear-gradient(
-    to right,
-    #ff0000,
-    #d2f700,
-    #d9ff00,
-    #00ffdd
-  );
-  background-clip: text;
-  color: transparent;
-
-  background-size: 300%;
-  background-position: -100%;
-
-  animation: animatedText 3s infinite alternate-reverse;
-}
-
-@keyframes animatedText {
-  to {
-    background-position: 100%;
-  }
-}
