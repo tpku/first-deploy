@@ -7,6 +7,12 @@
   --light-grey-tpku: #e5e5e5;
   --white-tpky: #fff9f9;
 }
+
+
+html { 
+  scroll-behavior:smooth;
+} 
+
 * {
   box-sizing: border-box;
 }
@@ -23,7 +29,8 @@ a {
 }
 
 header {
-  height: 100px;
+  position: fixed;
+  height: 50px;
   width: 1000px;
   max-width: 1200px;
   display: flex;
@@ -48,9 +55,7 @@ body {
   background-position-y: top;
 }
 
-
-img {
-  width: 100%;
-  max-width: 1920px;
+main > div {
+  padding-top: 100px;
+  height: 1080px;
 }
-
